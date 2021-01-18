@@ -4,7 +4,7 @@ all:
 	rm -rf *_specs *_config *.log;
 #	Dependencies
 #	Common service
-	erlc -o ebin ../../services/common_src/src/*.erl;
+#	erlc -o ebin ../../services/common_src/src/*.erl;
 #	Dbase Service + Application
 	erlc -o ebin ../../services/dbase_src/src/*.erl;
 	cp src/*.app ebin;

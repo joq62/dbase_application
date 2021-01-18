@@ -4,8 +4,8 @@
 [{description, "dbase " },
 {vsn, "1.0.0" },
 {modules, 
-	  [dbase_app,dbase_sup,dbase,common]},
-{registered,[dbase,common]},
+	  [dbase_app,dbase_sup,dbase]},
+{registered,[dbase]},
 {applications, [kernel,stdlib]},
 {mod, {dbase_app,[]}},
 {start_phases, []}
